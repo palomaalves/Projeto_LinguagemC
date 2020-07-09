@@ -1,4 +1,4 @@
-# projetos_CC-
+# projetos_Linguagem C/C++
 Projetos do 1º Período da Disciplina Algoritmos e Programação em C/C++.
 A disciplina apresentou os conceitos fundamentais da lógica aplicada à programação de
 computadores e resolução de problemas por meio de métodos e técnicas computacionais. 
