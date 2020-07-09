@@ -6,21 +6,35 @@
 //Thulio Mateus de Oliveira Queiroz
 
 #include <stdio.h>
+#include <conio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <string.h>
+#include <windows.h>
 
-	/*Escreva um programa que imprima a tabuada de um número N que deve ser informado pelo usuário. A tabuada deve
-	ser calculada de 0 a 10. O resultado deve ser informado da seguinte forma Ex. 5 x 6 = 30.*/
+	/*A prefeitura de Natal abriu uma linha de crédito para os funcionários estatutários. O valor
+	máximo da prestação não poderá ultrapassar 30% do salário bruto. Fazer um algoritmo que
+	leia o salário bruto e o valor da prestação e informar se o empréstimo pode ou não ser
+	concedido.
+	Exemplo:
+	Salário bruto: 1200,00
+	Valor da prestação: 400,00
+	Empréstimo não pode ser concedido!!*/
 int main()
 {
-	int tabuada, numero, resultado;
+	float salario, prestacao, resultado;
 	
-	printf("Digite um numero de 0 a 10: ");
-	scanf("%d*c",&tabuada);
+	printf("Digite seu salario: ");
+	scanf("%f*c",&salario);
+	printf("Digite a prestaçao: ");
+	scanf("%f*c",&prestacao);
 	
-	numero=0;
-	while(numero<=10){
-		resultado=tabuada*numero;
-		printf("\n %d * %d = %d", tabuada, numero, resultado);
-		numero++;
+	resultado=salario*0.3;
+	
+	if(prestacao<=resultado){
+		printf("\nO seu emprestimo podera ser concedido!");
+	}else{
+		printf("\nO emprestimo nao pode ser concedido!");
 	}
 		
 	getchar();
