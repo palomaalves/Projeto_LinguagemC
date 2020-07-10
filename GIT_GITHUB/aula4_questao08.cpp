@@ -1,10 +1,3 @@
-//Equipe:
-//Alequissandra Rayane Farias Santos Silva
-//Beatriz Lira Martins
-//Juliete Cilene de Albuquerque SÈrvio
-//Paloma CorrÍa Alves 
-//Thulio Mateus de Oliveira Queiroz
-
 #include <stdio.h>
 #include <conio.h>
 #include <stdlib.h>
@@ -12,21 +5,21 @@
 #include <string.h>
 #include <windows.h>
 
-	/*A prefeitura de Natal abriu uma linha de crÈdito para os funcion·rios estatut·rios. O valor
-	m·ximo da prestaÁ„o n„o poder· ultrapassar 30% do sal·rio bruto. Fazer um algoritmo que
-	leia o sal·rio bruto e o valor da prestaÁ„o e informar se o emprÈstimo pode ou n„o ser
+	/*A prefeitura de Natal abriu uma linha de cr√©dito para os funcion√°rios estatut√°rios. O valor
+	m√°ximo da presta√ß√£o n√£o poder√° ultrapassar 30% do sal√°rio bruto. Fazer um algoritmo que
+	leia o sal√°rio bruto e o valor da presta√ß√£o e informar se o empr√©stimo pode ou n√£o ser
 	concedido.
 	Exemplo:
-	Sal·rio bruto: 1200,00
-	Valor da prestaÁ„o: 400,00
-	EmprÈstimo n„o pode ser concedido!!*/
+	Sal√°rio bruto: 1200,00
+	Valor da presta√ß√£o: 400,00
+	Empr√©stimo n√£o pode ser concedido!!*/
 int main()
 {
 	float salario, prestacao, resultado;
 	
 	printf("Digite seu salario: ");
 	scanf("%f*c",&salario);
-	printf("Digite a prestaÁao: ");
+	printf("Digite a presta√ßao: ");
 	scanf("%f*c",&prestacao);
 	
 	resultado=salario*0.3;
